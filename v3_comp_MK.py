@@ -95,7 +95,7 @@ def compute_wheel_angle(hand1, hand2):
 def check_angle():
     mp_hands = mp.solutions.hands
     mp_draw = mp.solutions.drawing_utils
-
+ 
     cap = start_camera()
     if cap is None:
         return
